@@ -17,6 +17,15 @@
   --quick-trans: 200ms;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-color);
+}
+
 html {
   scroll-behavior: smooth;
 }
